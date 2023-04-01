@@ -1,7 +1,6 @@
-export const ItemListContainer = ({ greeting }) => {
+import React from 'react'
+export const ItemListContainer = ({ listaProductos }) => {
     return (
-        <div>
-            <p>{greeting}</p>
-        </div>
+            <p class="badge bg-info text-dark">{listaProductos}</p>
     )
 }
